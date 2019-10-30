@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AddIdeaViewController.swift
 //  My Idea Pool
 //
 //  Created by Franco on 2019-10-29.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AddIdeaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setUpNavBarAddIdea()
+
         // Do any additional setup after loading the view.
     }
-
-
 }
-
