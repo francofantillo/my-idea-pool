@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+// This extention is used for setting up the navigation bar.
 extension UIViewController {
     
     func setupNavBar(){

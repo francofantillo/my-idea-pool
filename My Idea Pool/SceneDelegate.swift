@@ -67,7 +67,7 @@ extension SceneDelegate {
     private func setInitialViewController() -> NavController? {
         
         guard let savedRefreshToken = UserDefaults.standard.string(forKey: Constants.refresh_token.rawValue) else { return nil }
-        guard let encodedRefreshToken = getEncodedRefreshToken(tokenString: savedRefreshToken) else {
+        guard let encodedRefreshToken = Util.getEncodedRefreshToken(tokenString: savedRefreshToken) else {
             return nil
         }
         
@@ -89,14 +89,6 @@ extension SceneDelegate {
         }
         
         return nil
-    }
-    
-    private func getEncodedRefreshToken(tokenString: String) -> Data?{
-        let refreshToken = AuthenticationTokens(refresh_token: tokenString)
-        var encodedRefreshToken: Data!
-        do { encodedRefreshToken = try JSONEncoder().encode(refreshToken) }
-        catch { fatalError("Could not encode") }
-        return encodedRefreshToken
     }
 }
 

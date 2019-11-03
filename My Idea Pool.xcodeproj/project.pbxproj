@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D21005A236E7D4A00FC2FEC /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D210059236E7D4A00FC2FEC /* Util.swift */; };
 		9D32DB2F23694C3B00D0C284 /* KeyboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32DB2E23694C3B00D0C284 /* KeyboardExtensions.swift */; };
 		9D32DB3123695BF300D0C284 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32DB3023695BF300D0C284 /* LogInViewController.swift */; };
 		9D41A97C236A995D00B2657D /* PostAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41A97B236A995D00B2657D /* PostAlerts.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D210059236E7D4A00FC2FEC /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		9D32DB2E23694C3B00D0C284 /* KeyboardExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardExtensions.swift; sourceTree = "<group>"; };
 		9D32DB3023695BF300D0C284 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		9D41A97B236A995D00B2657D /* PostAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAlerts.swift; sourceTree = "<group>"; };
@@ -234,9 +236,9 @@
 		9DC7AC0B2369179900BBB5D7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9DC7AC09236916C800BBB5D7 /* NavigationControllerExtension.swift */,
 				9D32DB2E23694C3B00D0C284 /* KeyboardExtensions.swift */,
 				9DF66817236A4B5D005BB093 /* MiscExtensions.swift */,
+				9DC7AC09236916C800BBB5D7 /* NavigationControllerExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -265,6 +267,7 @@
 				9D41A97B236A995D00B2657D /* PostAlerts.swift */,
 				9DF6680F236A3905005BB093 /* EmailValidation.swift */,
 				9DF66815236A3CC8005BB093 /* PasswordValidation.swift */,
+				9D210059236E7D4A00FC2FEC /* Util.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				9DC7ABD82368B51000BBB5D7 /* AppDelegate.swift in Sources */,
 				9DF6681D236A5C2F005BB093 /* AuthenticationTokens.swift in Sources */,
 				9DDF59B02369600D005E7341 /* IdeaViewController.swift in Sources */,
+				9D21005A236E7D4A00FC2FEC /* Util.swift in Sources */,
 				9DC7AC082369101300BBB5D7 /* SignUpViewController.swift in Sources */,
 				9DC7ABDA2368B51000BBB5D7 /* SceneDelegate.swift in Sources */,
 				9DF6680D236A32FD005BB093 /* RESTApiManager.swift in Sources */,
