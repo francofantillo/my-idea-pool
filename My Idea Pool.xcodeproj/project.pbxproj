@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		9D32DB2F23694C3B00D0C284 /* KeyboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32DB2E23694C3B00D0C284 /* KeyboardExtensions.swift */; };
 		9D32DB3123695BF300D0C284 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32DB3023695BF300D0C284 /* LogInViewController.swift */; };
+		9D41A97C236A995D00B2657D /* PostAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41A97B236A995D00B2657D /* PostAlerts.swift */; };
+		9D41A97E236AAD8A00B2657D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41A97D236AAD8A00B2657D /* Constants.swift */; };
+		9D41A980236ABF5200B2657D /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41A97F236ABF5200B2657D /* NavController.swift */; };
+		9D41A983236B902200B2657D /* IdeaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41A981236B902200B2657D /* IdeaCollectionViewCell.swift */; };
+		9D41A984236B902200B2657D /* IdeaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D41A982236B902200B2657D /* IdeaCollectionViewCell.xib */; };
+		9D41A989236B979F00B2657D /* NewIdea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41A988236B979F00B2657D /* NewIdea.swift */; };
+		9D41A98C236B982E00B2657D /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41A98B236B982E00B2657D /* Idea.swift */; };
 		9DC7ABD82368B51000BBB5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7ABD72368B51000BBB5D7 /* AppDelegate.swift */; };
 		9DC7ABDA2368B51000BBB5D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7ABD92368B51000BBB5D7 /* SceneDelegate.swift */; };
 		9DC7ABDF2368B51000BBB5D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7ABDD2368B51000BBB5D7 /* Main.storyboard */; };
@@ -22,6 +29,13 @@
 		9DF6680623696C18005BB093 /* AddIdeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6680523696C18005BB093 /* AddIdeaViewController.swift */; };
 		9DF66808236A1A8B005BB093 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF66807236A1A8B005BB093 /* AuthenticationViewController.swift */; };
 		9DF6680A236A1EC3005BB093 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF66809236A1EC3005BB093 /* Protocols.swift */; };
+		9DF6680D236A32FD005BB093 /* RESTApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6680C236A32FD005BB093 /* RESTApiManager.swift */; };
+		9DF66810236A3905005BB093 /* EmailValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6680F236A3905005BB093 /* EmailValidation.swift */; };
+		9DF66813236A3ACA005BB093 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF66812236A3ACA005BB093 /* User.swift */; };
+		9DF66816236A3CC8005BB093 /* PasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF66815236A3CC8005BB093 /* PasswordValidation.swift */; };
+		9DF66818236A4B5D005BB093 /* MiscExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF66817236A4B5D005BB093 /* MiscExtensions.swift */; };
+		9DF6681B236A53DC005BB093 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6681A236A53DC005BB093 /* Endpoints.swift */; };
+		9DF6681D236A5C2F005BB093 /* AuthenticationTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6681C236A5C2F005BB093 /* AuthenticationTokens.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,13 @@
 /* Begin PBXFileReference section */
 		9D32DB2E23694C3B00D0C284 /* KeyboardExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardExtensions.swift; sourceTree = "<group>"; };
 		9D32DB3023695BF300D0C284 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		9D41A97B236A995D00B2657D /* PostAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAlerts.swift; sourceTree = "<group>"; };
+		9D41A97D236AAD8A00B2657D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9D41A97F236ABF5200B2657D /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		9D41A981236B902200B2657D /* IdeaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D41A982236B902200B2657D /* IdeaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IdeaCollectionViewCell.xib; sourceTree = "<group>"; };
+		9D41A988236B979F00B2657D /* NewIdea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIdea.swift; sourceTree = "<group>"; };
+		9D41A98B236B982E00B2657D /* Idea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
 		9DC7ABD42368B51000BBB5D7 /* My Idea Pool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Idea Pool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC7ABD72368B51000BBB5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DC7ABD92368B51000BBB5D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +84,13 @@
 		9DF6680523696C18005BB093 /* AddIdeaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIdeaViewController.swift; sourceTree = "<group>"; };
 		9DF66807236A1A8B005BB093 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		9DF66809236A1EC3005BB093 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		9DF6680C236A32FD005BB093 /* RESTApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTApiManager.swift; sourceTree = "<group>"; };
+		9DF6680F236A3905005BB093 /* EmailValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidation.swift; sourceTree = "<group>"; };
+		9DF66812236A3ACA005BB093 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9DF66815236A3CC8005BB093 /* PasswordValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidation.swift; sourceTree = "<group>"; };
+		9DF66817236A4B5D005BB093 /* MiscExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscExtensions.swift; sourceTree = "<group>"; };
+		9DF6681A236A53DC005BB093 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		9DF6681C236A5C2F005BB093 /* AuthenticationTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTokens.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,14 +118,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D210058236E601200FC2FEC /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				9D41A97F236ABF5200B2657D /* NavController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
 		9D32DB3223695BFF00D0C284 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
 				9DF66807236A1A8B005BB093 /* AuthenticationViewController.swift */,
 				9D32DB3023695BF300D0C284 /* LogInViewController.swift */,
 				9DC7AC072369101300BBB5D7 /* SignUpViewController.swift */,
+				9DF66814236A3ACE005BB093 /* Models */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9D41A985236B906F00B2657D /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9D41A981236B902200B2657D /* IdeaCollectionViewCell.swift */,
+				9D41A982236B902200B2657D /* IdeaCollectionViewCell.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		9D41A986236B976A00B2657D /* Ideas */ = {
+			isa = PBXGroup;
+			children = (
+				9D41A98A236B97A600B2657D /* Models */,
+				9D41A987236B977900B2657D /* ViewControllers */,
+			);
+			path = Ideas;
+			sourceTree = "<group>";
+		};
+		9D41A987236B977900B2657D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6680523696C18005BB093 /* AddIdeaViewController.swift */,
+				9DDF59AF2369600D005E7341 /* IdeaViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9D41A98A236B97A600B2657D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D41A988236B979F00B2657D /* NewIdea.swift */,
+				9D41A98B236B982E00B2657D /* Idea.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		9DC7ABCB2368B51000BBB5D7 = {
@@ -125,15 +198,17 @@
 			children = (
 				9DC7ABD72368B51000BBB5D7 /* AppDelegate.swift */,
 				9DC7ABD92368B51000BBB5D7 /* SceneDelegate.swift */,
-				9DC7ABDD2368B51000BBB5D7 /* Main.storyboard */,
-				9DF6680523696C18005BB093 /* AddIdeaViewController.swift */,
-				9DDF59AF2369600D005E7341 /* IdeaViewController.swift */,
-				9D32DB3223695BFF00D0C284 /* Authentication */,
-				9DC7AC0B2369179900BBB5D7 /* Extensions */,
-				9DF6680B236A1EC8005BB093 /* Protocols */,
 				9DC7ABE02368B51200BBB5D7 /* Assets.xcassets */,
-				9DC7ABE22368B51200BBB5D7 /* LaunchScreen.storyboard */,
 				9DC7ABE52368B51200BBB5D7 /* Info.plist */,
+				9DF6680E236A3304005BB093 /* Api */,
+				9D32DB3223695BFF00D0C284 /* Authentication */,
+				9D41A985236B906F00B2657D /* CollectionView */,
+				9DC7AC0B2369179900BBB5D7 /* Extensions */,
+				9D210058236E601200FC2FEC /* NavigationController */,
+				9DF6680B236A1EC8005BB093 /* Protocols */,
+				9D41A986236B976A00B2657D /* Ideas */,
+				9DF66819236A5242005BB093 /* Storyboards */,
+				9DF66811236A390B005BB093 /* Util */,
 			);
 			path = "My Idea Pool";
 			sourceTree = "<group>";
@@ -161,6 +236,7 @@
 			children = (
 				9DC7AC09236916C800BBB5D7 /* NavigationControllerExtension.swift */,
 				9D32DB2E23694C3B00D0C284 /* KeyboardExtensions.swift */,
+				9DF66817236A4B5D005BB093 /* MiscExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -171,6 +247,44 @@
 				9DF66809236A1EC3005BB093 /* Protocols.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9DF6680E236A3304005BB093 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6680C236A32FD005BB093 /* RESTApiManager.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		9DF66811236A390B005BB093 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6681A236A53DC005BB093 /* Endpoints.swift */,
+				9D41A97D236AAD8A00B2657D /* Constants.swift */,
+				9D41A97B236A995D00B2657D /* PostAlerts.swift */,
+				9DF6680F236A3905005BB093 /* EmailValidation.swift */,
+				9DF66815236A3CC8005BB093 /* PasswordValidation.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9DF66814236A3ACE005BB093 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DF66812236A3ACA005BB093 /* User.swift */,
+				9DF6681C236A5C2F005BB093 /* AuthenticationTokens.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9DF66819236A5242005BB093 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9DC7ABDD2368B51000BBB5D7 /* Main.storyboard */,
+				9DC7ABE22368B51200BBB5D7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DC7ABE42368B51200BBB5D7 /* LaunchScreen.storyboard in Resources */,
+				9D41A984236B902200B2657D /* IdeaCollectionViewCell.xib in Resources */,
 				9DC7ABE12368B51200BBB5D7 /* Assets.xcassets in Resources */,
 				9DC7ABDF2368B51000BBB5D7 /* Main.storyboard in Resources */,
 			);
@@ -304,16 +419,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D41A97C236A995D00B2657D /* PostAlerts.swift in Sources */,
+				9D41A97E236AAD8A00B2657D /* Constants.swift in Sources */,
 				9D32DB2F23694C3B00D0C284 /* KeyboardExtensions.swift in Sources */,
 				9DF6680623696C18005BB093 /* AddIdeaViewController.swift in Sources */,
 				9DC7AC0A236916C800BBB5D7 /* NavigationControllerExtension.swift in Sources */,
+				9DF66810236A3905005BB093 /* EmailValidation.swift in Sources */,
+				9D41A983236B902200B2657D /* IdeaCollectionViewCell.swift in Sources */,
 				9D32DB3123695BF300D0C284 /* LogInViewController.swift in Sources */,
+				9DF6681B236A53DC005BB093 /* Endpoints.swift in Sources */,
+				9DF66816236A3CC8005BB093 /* PasswordValidation.swift in Sources */,
+				9DF66813236A3ACA005BB093 /* User.swift in Sources */,
+				9D41A98C236B982E00B2657D /* Idea.swift in Sources */,
+				9D41A980236ABF5200B2657D /* NavController.swift in Sources */,
 				9DF66808236A1A8B005BB093 /* AuthenticationViewController.swift in Sources */,
 				9DF6680A236A1EC3005BB093 /* Protocols.swift in Sources */,
+				9D41A989236B979F00B2657D /* NewIdea.swift in Sources */,
 				9DC7ABD82368B51000BBB5D7 /* AppDelegate.swift in Sources */,
+				9DF6681D236A5C2F005BB093 /* AuthenticationTokens.swift in Sources */,
 				9DDF59B02369600D005E7341 /* IdeaViewController.swift in Sources */,
 				9DC7AC082369101300BBB5D7 /* SignUpViewController.swift in Sources */,
 				9DC7ABDA2368B51000BBB5D7 /* SceneDelegate.swift in Sources */,
+				9DF6680D236A32FD005BB093 /* RESTApiManager.swift in Sources */,
+				9DF66818236A4B5D005BB093 /* MiscExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +617,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KLC5XX3QG;
 				INFOPLIST_FILE = "My Idea Pool/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,6 +636,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KLC5XX3QG;
 				INFOPLIST_FILE = "My Idea Pool/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

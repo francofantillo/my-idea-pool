@@ -9,9 +9,9 @@
 import Foundation
  
 protocol LogInDelegate {
-    func LogInDelegateFunc()
+    func LogInDelegateFunc(tokenData: AuthenticationTokens)
 }
 
 protocol SignUpDelegate {
-    func SignUpDelegateFunc()
+    func SignUpDelegateFunc(tokenData: AuthenticationTokens)
 }

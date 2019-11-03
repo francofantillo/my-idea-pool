@@ -15,14 +15,7 @@ extension UIViewController {
         navigationItem.leftBarButtonItems = [barImageView(imageName: "lighbulb"), barLabelView(label: "My Idea Pool")]
     }
     
-    func setUpNavBarIdeas(){
-         navigationItem.leftBarButtonItems = [barImageView(imageName: "lighbulb"), barLabelView(label: "My Idea Pool")]
-        let logOutBtn = UIBarButtonItem(title: "Log Out", style: .plain, target: self, action: #selector(logOutPressed))
-        logOutBtn.tintColor = UIColor.white
-        navigationItem.rightBarButtonItem = logOutBtn
-    }
-    
-    func setUpNavBarAddIdea(){
+    func setUpNavBarAddEditIdea(){
         self.navigationItem.leftItemsSupplementBackButton = true
         navigationItem.leftBarButtonItems = [barImageView(imageName: "lighbulb")]
     }
@@ -62,12 +55,6 @@ extension UIViewController {
         button.heightAnchor.constraint(equalToConstant: 35).isActive = true
         button.addTarget(self, action: selector, for: .touchUpInside)
         return UIBarButtonItem(customView: button)
-    }
-    
-    @objc private func logOutPressed(){
-        if let navController = self.navigationController {
-            navController.popViewController(animated: true)
-        }
     }
 }
 
